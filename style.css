@@ -3,7 +3,7 @@ body {
   font-family: 'Georgia', serif;
 }
 
-section:not(.contact-section) {
+section:not(.contact-section):not(.hero-section) {
   min-height: 100vh;
   padding: 60px 20px;
   display: flex;
