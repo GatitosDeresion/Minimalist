@@ -111,7 +111,7 @@ section:not(.contact-section):not(.hero-section) {
 /*Estilo para Celular*/
 
 @media (max-width: 768px) {
-  .nav {
+   .menu-toggle {
     display: none;
     position: absolute;
     top: 60px;
