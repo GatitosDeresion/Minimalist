@@ -79,10 +79,11 @@ section:not(.contact-section) {
   display: flex;
   align-items: center;
   gap: 10px;
+  max-width: 70%; /* EVITA que el logo + texto ocupen todo el ancho */
 }
 
 .logo img {
-  height: 28px; /* ajusta el tamaño según el logo */
+  height: 28px;
   width: auto;
   display: block;
 }
