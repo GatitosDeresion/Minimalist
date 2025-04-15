@@ -76,10 +76,23 @@ section:not(.contact-section) {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 28px; /* ajusta el tamaño según el logo */
+  width: auto;
+  display: block;
+}
+
+.logo span {
   font-weight: 400;
   font-size: 0.8em;
   letter-spacing: 3px;
   font-family: 'Georgia', serif;
+  color: white;
 }
 
 /* Estilos base para el botón */
