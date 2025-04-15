@@ -106,7 +106,8 @@ section:not(.contact-section) {
   cursor: pointer;
 }
 
-/* Estilos móviles */
+/*Estilo para Celular*/
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -130,5 +131,6 @@ section:not(.contact-section) {
 
   .nav a {
     padding: 10px 0;
+    width: 100%;
   }
 }
