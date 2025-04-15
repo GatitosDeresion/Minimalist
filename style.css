@@ -43,20 +43,21 @@ section:not(.contact-section) {
 
 .contact-section {
   background-color: #e0dcc8;
-  color: #4a4a4a;
-  padding: 0;
-  text-align: center;
-}
-
-.contact-section {
-  background-color: #e0dcc8;
-  color: #4a4a4a;
+  color: #4e4e4e;
   padding: 20px;
   text-align: center;
+  font-family: 'Georgia', serif;
   font-size: 1.1em;
-  line-height: 1.6;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
 }
 
 .contact-section p {
-  margin: 0;
+  margin: 6px 0;
+}
+
+.contact-section p:first-child {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #3c3c3c;
 }
