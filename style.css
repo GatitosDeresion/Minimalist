@@ -115,7 +115,7 @@ section:not(.contact-section):not(.hero-section) {
     display: none;
     position: absolute;
     top: 60px;
-    right: 0;
+    left: 0;
     background-color: #111;
     flex-direction: column;
     align-items: flex-start;
@@ -131,10 +131,11 @@ section:not(.contact-section):not(.hero-section) {
   .nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     width: 100%;
+    font-size: 1.1em;
     font-family: 'Georgia', serif;
-    font-size: 1em;
+    border-bottom: 1px solid #222;
   }
 
   .nav a:hover {
