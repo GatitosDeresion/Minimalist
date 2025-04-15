@@ -111,10 +111,6 @@ section:not(.contact-section):not(.hero-section) {
 /*Estilo para Celular*/
 
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
   .nav {
     display: none;
     position: absolute;
@@ -125,6 +121,7 @@ section:not(.contact-section):not(.hero-section) {
     align-items: flex-start;
     padding: 20px;
     width: 100%;
+    z-index: 999;
   }
 
   .nav.open {
@@ -132,8 +129,16 @@ section:not(.contact-section):not(.hero-section) {
   }
 
   .nav a {
-    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
     width: 100%;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+  }
+
+  .nav a:hover {
+    background-color: #222;
   }
 }
 
