@@ -15,6 +15,7 @@ section:not(.contact-section) {
 .hero-section {
   background-color: #111;
   color: #f5f5f5;
+  padding-top: 80px; /* crea espacio debajo del menú */
 }
 
 .light-section {
