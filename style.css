@@ -40,3 +40,12 @@ section {
   gap: 40px;
   font-size: 1.2em;
 }
+
+.contact-section {
+  background-color: #e0dcc8; /* caqui claro */
+  color: #4a4a4a;
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.6;
+}
