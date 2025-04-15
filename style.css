@@ -48,9 +48,15 @@ section {
   text-align: center;
 }
 
+.contact-section {
+  background-color: #e0dcc8;
+  color: #4a4a4a;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
 .contact-section p {
-  margin: 4px 0;          /* reduce el espacio vertical */
-  font-size: 1em;
-  line-height: 1.4;
-  padding: 4px 0;
+  margin: 0;
 }
